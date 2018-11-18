@@ -5,6 +5,21 @@ body {
     margin: 0 auto;
 }
 
+.navbar-default .navbar-brand {
+    color: #156d12;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #156d12;
+    font-size: 20px;
+}
+
 .navbar-style {
     background-color: rgb(77, 47, 13);    
 }
@@ -21,6 +36,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+    opacity: .9;
 }
 
 .hero-text {
@@ -38,7 +54,7 @@ body {
     height: 100vh;
 }
 
-.our-story-section {
+.our-garage-section {
     display: flex;
     align-items: center;
     background-image: url("img/SouthofShawSingleBrew.jpg");
@@ -46,4 +62,33 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+}
+
+.our-story-section {
+    display: flex;
+    align-items: center;
+    background-image: url("img/SouthofShawTallGlass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.da-footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(77, 47, 13);
+}
+
+/* Font awesome icons */
+.fa-facebook:before {
+    display: flex;
+    align-items: center;
+    color: #156d12;
+}
+
+.fa-instagram:before {
+    display: flex;
+    align-items: center;
+    color: #156d12;
 }
