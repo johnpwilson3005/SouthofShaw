@@ -13,8 +13,6 @@ storyBtn = document.querySelector('#storyBtn'),
 storyModal = document.querySelector('#storyModal'),
 closeStory = document.querySelector('.closeStory')
 
-
-
 // Our Company Modal Logic
 companyBtn.onclick = function() {
     daModal.style.display = 'block';
@@ -66,20 +64,3 @@ closeStory.onclick = function() {
 storyModal.onclick = function() {
     storyModal.style.display = 'none';
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
