@@ -1,0 +1,136 @@
+/* Global Styles */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.fix-logo {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    color: #79F375;
+}
+
+.navbar-default .navbar-brand {
+    color: #79F375;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #79F375;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFFFFF;
+}
+
+.navbar-style {
+    background-color: #404040;    
+}
+
+.navbar-default {
+    border: none;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    background-image: url("img/SouthofShawHero.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: .8;
+}
+
+.hero-text {
+    color: #080601;
+    font-size: 100px;
+}
+
+.more-beer-section {
+    display: flex;
+    align-items: center;
+    background-image: url("img/SouthofShawGarage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: .8;
+}
+
+.our-garage-section {
+    display: flex;
+    align-items: center;
+    background-image: url("img/SouthofShawSingleBrew.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: .8;
+}
+
+.our-story-section {
+    display: flex;
+    align-items: center;
+    background-image: url("img/SouthofShawTallGlass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    opacity: .8;
+}
+
+.da-footer {
+    display: flex;
+    align-items: center;
+    background-color: #404040;
+}
+
+/* Font awesome icons */
+.fa-facebook:before {
+    display: flex;
+    align-items: center;
+    color: #79F375;
+}
+
+
+
+.fa-instagram:before {
+    display: flex;
+    align-items: center;
+    color: #79F375;
+}
+
+.fa-linkedin:before {
+    display: flex;
+    align-items: center;
+    color: #79F375;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(21, 109, 18, .1);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
