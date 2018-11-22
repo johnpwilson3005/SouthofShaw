@@ -5,6 +5,8 @@ body {
     margin: 0 auto;
 }
 
+/* Sequential Order */
+
 .fix-logo {
     display: flex;
     align-items: center;
@@ -133,4 +135,9 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+}
+
+.footer-icons {
+    list-style-type: none;
+    display: inline-flex;
 }
